@@ -85,24 +85,126 @@ It creates a unified environment where students and educators can connect, learn
   <img src="usecase.png" width="700"/>
 </p>
 
-### 👥 Actors
-- Visitor  
-- Member  
+## 👥 Actors
 
-### 📌 Use Cases
-**Visitor:**
-- Register, Login  
-- View courses  
-- Popular courses  
-- Kids Zone  
+1. 🌐 Visitor  
+2. 🧑‍💻 Member  
 
-**Member:**
-- Add course  
-- Upload materials  
-- Chat & discussion  
-- Dashboard  
-- Profile management  
-- ChatGPT assistance 
+---
+
+## 📖 Actor Descriptions
+
+### 🌐 Visitor
+A **non-registered user** who can access limited features of the platform.  
+Visitors primarily explore the system before creating an account.
+
+**Capabilities:**
+- View course list  
+- Browse popular courses  
+- Access Kids Zone  
+- Register and login  
+
+---
+
+### 🧑‍💻 Member
+A **registered user** who has full access to the platform functionalities.  
+A member can act as both a **learner** and a **content contributor**.
+
+**Capabilities:**
+- Search courses  
+- Upload course materials  
+- Participate in discussions  
+- Use chat system  
+- Access ChatGPT assistant  
+- Browse content  
+- View enrolled courses  
+
+---
+
+## 📌 Use Cases
+
+### 🌐 Visitor Use Cases
+1. Registration  
+2. Login  
+3. View Course List  
+4. Popular Courses  
+5. Kids Zone  
+
+---
+
+### 🧑‍💻 Member Use Cases
+1. Search Courses  
+2. Upload Course Material  
+3. Discussion  
+4. Chat  
+5. ChatGPT Assistance  
+6. Browse  
+7. View Enrolled Courses  
+
+---
+
+## 📖 Use Case Descriptions
+
+### 🌐 Visitor Use Cases:
+
+#### Registration
+- **Description:** Allows a visitor to create a new account.  
+- **Postcondition:** User becomes a Member.  
+
+#### Login
+- **Description:** Authenticates user credentials.  
+- **Postcondition:** Access to member features is granted.  
+
+#### View Course List
+- **Description:** Displays all available courses.  
+
+#### Popular Courses
+- **Description:** Shows trending or highly rated courses.  
+
+#### Kids Zone
+- **Description:** Displays courses designed specifically for children.  
+
+---
+
+### 🧑‍💻 Member Use Cases:
+
+#### Search Courses
+- Allows users to find courses using keywords.
+
+#### Upload Course Material
+- Enables uploading learning resources.
+
+#### Discussion
+- Allows interaction via posts and comments.
+
+#### Chat
+- Real-time communication between users.
+
+#### ChatGPT Assistance
+- AI-based help system.
+
+#### Browse
+- Explore platform sections.
+
+#### View Enrolled Courses
+- Displays courses the user is enrolled in.
+
+---
+
+## 🔗 Relationships Between Use Cases
+
+### 1. Discussion → Chat (Extend)
+- Chat extends Discussion for deeper interaction.
+
+### 2. Visitor → Member Transition
+- Registration/Login converts a Visitor into a Member.
+
+---
+
+## ⚠️ Note
+
+The provided **Use Case Diagram primarily illustrates the Member actor and core functionalities**.  
+Visitor interactions are conceptually part of the system but are not fully visualized in the diagram.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
