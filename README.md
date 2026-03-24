@@ -1,6 +1,6 @@
 <!-- Logo on top --> 
 <p align="center"> 
-  <img src="Images/logo.png" alt="E-PATHSHALA Logo" width="600"/> 
+  <img src="logo.png" alt="E-PATHSHALA Logo" width="600"/> 
 </p> 
 
 <!-- Title --> 
