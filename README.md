@@ -84,17 +84,18 @@ It creates a unified environment where students and educators can connect, learn
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 
-<!-- Use Case Banner -->
+<!-- Use Case Diagram --> 
 <img src="https://capsule-render.vercel.app/api?type=waving&text=🔄%20Use%20Case%20Diagram&fontSize=32&height=120&color=0:FC5C7D,100:FF416C" width="100%"/>
 
 <p align="center">
-  <img src="usecase.png" width="700"/>
+  <img src="android_usecase.png" width="700"/>
 </p>
 
 ## 👥 Actors
 
 1. 🌐 Visitor  
 2. 🧑‍💻 Member  
+3. 👨‍🏫 Instructor  
 
 ---
 
@@ -113,17 +114,30 @@ Visitors primarily explore the system before creating an account.
 ---
 
 ### 🧑‍💻 Member
-A **registered user** who has full access to the platform functionalities.  
-A member can act as both a **learner** and a **content contributor**.
+A **registered learner** who can access the platform’s full functionalities.  
 
 **Capabilities:**
 - Search courses  
+- Enroll in courses  
 - Upload course materials  
 - Participate in discussions  
-- Use chat system  
-- Access ChatGPT assistant  
+- Use chat system (real-time)  
+- Access AI assistant (ChatGPT)  
 - Browse content  
 - View enrolled courses  
+- Manage profile  
+
+---
+
+### 👨‍🏫 Instructor
+A **registered content contributor** who can manage courses and monitor learners.  
+
+**Capabilities:**
+- Create and manage courses  
+- Upload learning materials  
+- Track student progress  
+- Manage discussions & chat  
+- Use AI assistant (ChatGPT)  
 
 ---
 
@@ -140,60 +154,23 @@ A member can act as both a **learner** and a **content contributor**.
 
 ### 🧑‍💻 Member Use Cases
 1. Search Courses  
-2. Upload Course Material  
-3. Discussion  
-4. Chat  
+2. Enroll in Courses  
+3. Upload Course Material  
+4. Discussion  
+5. Chat  
+6. ChatGPT Assistance  
+7. Browse  
+8. View Enrolled Courses  
+9. Manage Profile  
+
+---
+
+### 👨‍🏫 Instructor Use Cases
+1. Create / Manage Courses  
+2. Upload Materials  
+3. Track Student Progress  
+4. Manage Discussions & Chat  
 5. ChatGPT Assistance  
-6. Browse  
-7. View Enrolled Courses  
-
----
-
-## 📖 Use Case Descriptions
-
-### 🌐 Visitor Use Cases:
-
-#### Registration
-- **Description:** Allows a visitor to create a new account.  
-- **Postcondition:** User becomes a Member.  
-
-#### Login
-- **Description:** Authenticates user credentials.  
-- **Postcondition:** Access to member features is granted.  
-
-#### View Course List
-- **Description:** Displays all available courses.  
-
-#### Popular Courses
-- **Description:** Shows trending or highly rated courses.  
-
-#### Kids Zone
-- **Description:** Displays courses designed specifically for children.  
-
----
-
-### 🧑‍💻 Member Use Cases:
-
-#### Search Courses
-- Allows users to find courses using keywords.
-
-#### Upload Course Material
-- Enables uploading learning resources.
-
-#### Discussion
-- Allows interaction via posts and comments.
-
-#### Chat
-- Real-time communication between users.
-
-#### ChatGPT Assistance
-- AI-based help system.
-
-#### Browse
-- Explore platform sections.
-
-#### View Enrolled Courses
-- Displays courses the user is enrolled in.
 
 ---
 
@@ -202,15 +179,15 @@ A member can act as both a **learner** and a **content contributor**.
 ### 1. Discussion → Chat (Extend)
 - Chat extends Discussion for deeper interaction.
 
-### 2. Visitor → Member Transition
-- Registration/Login converts a Visitor into a Member.
+### 2. Visitor → Member / Instructor Transition
+- Registration/Login converts a Visitor into a Member or Instructor.
 
 ---
 
 ## ⚠️ Note
 
-The provided **Use Case Diagram primarily illustrates the Member actor and core functionalities**.  
-Visitor interactions are conceptually part of the system but are not fully visualized in the diagram.
+The **Use Case Diagram illustrates all actors and their core functionalities**.  
+Visitor interactions are conceptually part of the system but shown outside the system boundary, while Member and Instructor use cases are fully inside the diagram.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
