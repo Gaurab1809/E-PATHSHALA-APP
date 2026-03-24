@@ -195,9 +195,10 @@ It provides a strong foundation for future-ready education systems and has the p
 <!-- Author --> 
 <img src="https://capsule-render.vercel.app/api?type=waving&text=👨‍💻%20Author&fontSize=32&width=1200&height=130&color=0:00F260,100:0575E6" width="100%">
 
-### A. K. M. Masudur Rahman (Gaurab)
-🎓 CSE, BAUST, Saidpur
-📧 akmmasudurrahmangaurab@gmail.com
+**A. K. M. Masudur Rahman (Gaurab)**   
+🎓 Department of Computer Science and Engineering (CSE)    
+🏫 Bangladesh Army University of Science and Technology (BAUST), Saidpur    
+📧 Email: akmmasudurrahmangaurab@gmail.com  
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <!-- Support --> <img src="https://capsule-render.vercel.app/api?type=waving&text=⭐%20Support&fontSize=32&width=1200&height=130&color=0:FF416C,100:FF4B2B" width="100%">
