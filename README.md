@@ -1,19 +1,25 @@
 <!-- Logo on top --> 
-<p align="center"> <img src="Images/logo.png" alt="E-PATHSHALA Logo" width="600"/> 
+<p align="center"> 
+  <img src="Images/logo.png" alt="E-PATHSHALA Logo" width="600"/> 
+</p> 
 
-</p> <!-- Title --> 
-<h1 align="center"> <span style="color:blue; font-size:36px; font-weight:bold;">📚 E-PATHSHALA – Smart E-Learning Platform</span> </h1> 
-<h3 align="center"> <b style="color:purple;">🎓 A Modern Android-Based Learning System for Accessible, Personalized & Interactive Education</b> </h3> 
-
+<!-- Title --> 
+<h1 align="center"> 
+  <span style="color:blue; font-size:36px; font-weight:bold;">📚 E-PATHSHALA – Smart E-Learning Platform</span> 
+</h1> 
+<h3 align="center"> 
+  <b style="color:purple;">🎓 A Modern Android-Based Learning System for Accessible, Personalized & Interactive Education</b> 
+</h3> 
 
 <p align="center"> 
   <img src="https://img.shields.io/badge/Platform-Android-blue?style=for-the-badge"> 
   <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge"> 
   <img src="https://img.shields.io/badge/Backend-Firebase-yellow?style=for-the-badge"> 
-  <img src="https://img.shields.io/badge/Database-Firestore-brightgreen?style=for-the-badge"> </p> 
+  <img src="https://img.shields.io/badge/Database-Firestore-brightgreen?style=for-the-badge"> 
+</p> 
   
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"> 
-  
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"> 
+
 <!-- Abstract --> 
 <img src="https://capsule-render.vercel.app/api?type=waving&text=📌%20Abstract&fontSize=32&width=1200&height=130&color=0:9D50BB,100:6E48AA" width="100%">
 
@@ -213,7 +219,7 @@ Visitor interactions are conceptually part of the system but are not fully visua
 
 👤 Visitor  
 📝 Register account    
-🔐 Login  
+🔐 Login (Firebase Authentication)  
 📚 View course list  
 ⭐ Explore popular courses  
 🧒 Access Kids Zone   
@@ -222,9 +228,9 @@ Visitor interactions are conceptually part of the system but are not fully visua
 🔍 Search courses  
 📤 Upload materials  
 💬 Participate in discussions  
-📩 Chat with users  
+📩 Chat with users (Real-time)  
 🤖 Use AI assistant (ChatGPT)   
-📊 View dashboard   
+📊 View dashboard  
 👤 Manage profile  
 📚 Access enrolled courses   
 🔁 Common  
@@ -237,13 +243,15 @@ Visitor interactions are conceptually part of the system but are not fully visua
 
 📚 Comprehensive course catalog  
 🧒 Dedicated Kids Zone    
-💬 Chat & discussion forums  
+💬 Chat & discussion forums (Real-time)  
 🤖 AI-powered ChatGPT assistant  
 📤 Course material upload system  
-📊 Personalized dashboard  
+📊 Personalized dashboard & analytics  
 👤 Custom profile management  
 🔗 Content sharing features  
-🔐 Secure login & verification  
+🔐 Secure login & verification (Firebase)  
+☁️ Real-time database sync  
+🔎 Advanced course search  
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -264,7 +272,6 @@ Visitor interactions are conceptually part of the system but are not fully visua
 🔗 Share App  
 🚪 Logout  
 
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 
@@ -279,6 +286,19 @@ Visitor interactions are conceptually part of the system but are not fully visua
 🖥️ OS: Windows  
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+
+<!-- Future Work --> 
+<img src="https://capsule-render.vercel.app/api?type=waving&text=🔮%20Future%20Work&fontSize=32&width=1200&height=130&color=0:FF416C,100:FF4B2B" width="100%">
+
+🚀 Mobile & Web synchronization for seamless cross-platform learning  
+📊 Advanced analytics dashboard for student performance tracking  
+🤖 Enhanced AI tutor with personalized recommendations  
+🔐 Role-based access control with improved security  
+💳 Integrated payment gateway for premium courses  
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 
 <!-- Conclusion --> 
 <img src="https://capsule-render.vercel.app/api?type=waving&text=✅%20Conclusion&fontSize=32&width=1200&height=130&color=0:6A82FB,100:FC5C7D" width="100%">
@@ -303,6 +323,8 @@ It provides a strong foundation for future-ready education systems and has the p
 📧 Email: akmmasudurrahmangaurab@gmail.com  
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-<!-- Support --> <img src="https://capsule-render.vercel.app/api?type=waving&text=⭐%20Support&fontSize=32&width=1200&height=130&color=0:FF416C,100:FF4B2B" width="100%">
+
+<!-- Support --> 
+<img src="https://capsule-render.vercel.app/api?type=waving&text=⭐%20Support&fontSize=32&width=1200&height=130&color=0:FF416C,100:FF4B2B" width="100%">
 
 If you like this project, consider giving it a ⭐ on GitHub!
